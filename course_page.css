@@ -1,0 +1,141 @@
+.navbar {
+    background-color: rgb(255, 123, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 500px;
+    padding-right: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_ae {
+    width: 10px;
+    height: 10px;
+    border-radius: 12.5px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+button {
+    background: rgb(8, 8, 69);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a{
+    color: white;
+    font-weight: bold;
+}
+
+
+.page-banner {
+    text-align: center;
+    padding: 40px 15px 20px;
+}
+
+.page-banner h1 {
+    color: rgb(8, 8, 69);
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.page-banner p {
+    color: #555;
+    font-size: 16px;
+}
+
+.container-section {
+    padding: 20px 15px 60px;
+}
+
+.Courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* remove the background/padding/shadow you had here — that was styling
+       the whole grid as one big card. Each individual course needs its own card now. */
+}
+
+.Course-destination {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Course-destination:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.Course-destination img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.Course-destination h3 {
+    color: rgb(8, 8, 69);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 18px 20px 10px;
+}
+
+.Course-destination p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 20px 20px;
+}
+
+
+
+
+.Footer {
+    margin-top: 20px;
+    background-color: rgb(8, 8, 69);
+    padding: 20px;
+}
+
+.Footer_item {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.links_footer {
+    color: rgb(255, 123, 0);
+    display: inline-block;
+}
+
+.sep {
+    color: white;
+    display: inline-block;
+}
+
+.Footer_contact {
+    color: white;
+}
+
+#para {
+    color: rgb(8, 8, 69);
+}
