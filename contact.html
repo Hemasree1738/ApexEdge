@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Register | ApexEdge Academy</title>
+    <meta name="description" content="Get in touch with ApexEdge Academy or register your interest in our career-ready courses.">
+    <meta name="keywords" content="contact ApexEdge, register, enroll, course enquiry, career skills">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="Logo.png" alt="ApexEdge Academy logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course_page.html">Courses</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="sign_in.html" class="nav-btn">Sign In</a>
+                <a href="sign_up.html" class="nav-btn">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section class="page-banner">
+        <h1>Get In Touch</h1>
+        <p>Register your interest or reach out to us — we'll get back to you within 24 hours.</p>
+    </section>
+
+    
+    <section class="contact-section">
+        <div class="contact-wrapper">
+
+            
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+
+                <div class="info-item">
+                    <span class="info-icon">📍</span>
+                    <div>
+                        <p class="info-label">Address</p>
+                        <p class="info-value">123 ApexEdge Tower, Bengaluru, Karnataka 560001, India</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span class="info-icon">📞</span>
+                    <div>
+                        <p class="info-label">Phone</p>
+                        <p class="info-value"><a href="tel:+919876543210">+91 9876543210</a></p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span class="info-icon">✉️</span>
+                    <div>
+                        <p class="info-label">Email</p>
+                        <p class="info-value"><a href="mailto:ApexEdge@gmail.com">ApexEdge@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span class="info-icon">🕐</span>
+                    <div>
+                        <p class="info-label">Working Hours</p>
+                        <p class="info-value">Monday – Saturday: 9:00 AM – 6:00 PM</p>
+                    </div>
+                </div>
+
+                
+                <div class="map-embed">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9851299803895!2d77.5945!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1234567890"
+                        width="100%"
+                        height="200"
+                        style="border:0; border-radius: 10px;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        title="ApexEdge Academy location map">
+                    </iframe>
+                </div>
+            </div>
+
+
+            <div class="contact-form-box">
+                <h2>Register Your Interest</h2>
+
+                
+                <div class="success-msg" id="successMsg">
+                    ✅ Thank you! Your registration has been submitted. We'll contact you within 24 hours.
+                </div>
+
+                <form id="registerForm" novalidate>
+
+                    <div class="form-group">
+                        <label for="fullName">Full Name <span class="required">*</span></label>
+                        <input type="text" id="fullName" placeholder="Enter your full name">
+                        <p class="error-msg" id="nameError">Please enter your name (minimum 3 characters).</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="email" placeholder="Enter your email address">
+                        <p class="error-msg" id="emailError">Please enter a valid email address.</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="phone" placeholder="Enter 10-digit phone number">
+                        <p class="error-msg" id="phoneError">Please enter a valid 10-digit phone number.</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="course">Course Interested In <span class="required">*</span></label>
+                        <select id="course">
+                            <option value="">-- Select a Course --</option>
+                            <option value="ai">Technical & AI Mastery</option>
+                            <option value="finance">Financial Intelligence & Wealth Creation</option>
+                            <option value="entrepreneur">Entrepreneurship & Business Growth</option>
+                            <option value="communication">Executive Communication & Power Skills</option>
+                            <option value="coding">Coding & Computational Thinking</option>
+                        </select>
+                        <p class="error-msg" id="courseError">Please select a course.</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message <span class="required">*</span></label>
+                        <textarea id="message" rows="4" placeholder="Tell us about your goals or any questions you have..."></textarea>
+                        <p class="error-msg" id="messageError">Please enter a message (minimum 10 characters).</p>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit Registration</button>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="Footer">
+            <div class="footer-col">
+                <h3>ApexEdge Academy</h3>
+                <p>Skills for Today. Success for Tomorrow.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="course_page.html">Courses</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>Email: ApexEdge@gmail.com</p>
+                <p>Phone: +91 98765 43210</p>
+                <p>Mon–Sat: 9:00 AM – 6:00 PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 ApexEdge Academy. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/6a45fd4a8c45b31d46f20f55/1jsgmaqu3';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+</html>
