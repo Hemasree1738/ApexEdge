@@ -1,0 +1,87 @@
+.page-banner {
+    text-align: center;
+    padding: 40px 15px 20px;
+}
+
+.page-banner h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.page-banner p {
+    color: white;
+    font-size: 16px;
+}
+
+.container-section {
+    padding: 20px 15px 60px;
+}
+
+.Courses {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.courses-row-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.courses-row-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.Course-destination {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Course-destination:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.Course-destination img {
+    width: 300px;
+    height: 180px;
+    object-fit: contain;
+    display: block;
+}
+
+.Course-destination h3 {
+    color: rgb(8, 8, 69);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 18px 20px 10px;
+}
+
+.Course-destination p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 20px 20px;
+}
+
+@media (max-width: 768px) {
+    .courses-row-top {
+        grid-template-columns: 1fr;
+    }
+    .courses-row-bottom {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+    .page-banner h1 {
+        font-size: 26px;
+    }
+}
